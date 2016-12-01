@@ -17,3 +17,6 @@ da dentro cartella progetto
     $npm install
     $node .
 
+To create a user please run
+
+$curl -X POST -H "Content-Type:application/json" -d '{"email": "me@domain.com", "password": "secret"}'   http://localhost:3000/api/users
